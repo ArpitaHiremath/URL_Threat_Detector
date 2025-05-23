@@ -1,0 +1,62 @@
+[
+    {
+        "url": "flipkart.com",
+        "ip": "163.53.76.86",
+        "timestamp": "2025-05-23 11:18:34.142273",
+        "result": "Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-23 11:18 IST\nNmap scan report for 163.53.76.86\nHost is up (0.047s latency).\nNot shown: 995 filtered tcp ports (no-response)\nPORT     STATE  SERVICE\n80/tcp   open   http\n113/tcp  closed ident\n443/tcp  open   https\n2000/tcp open   cisco-sccp\n5060/tcp open   sip\n\nNmap done: 1 IP address (1 host up) scanned in 669.40 seconds\n"
+    },
+    {
+        "url": "zomato.com",
+        "ip": "3.1.4.53",
+        "timestamp": "2025-05-23 11:26:02.446032",
+        "result": "Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-23 11:26 IST\nNmap scan report for ec2-3-1-4-53.ap-southeast-1.compute.amazonaws.com (3.1.4.53)\nHost is up (0.077s latency).\nNot shown: 996 filtered tcp ports (no-response)\nPORT     STATE SERVICE\n80/tcp   open  http\n443/tcp  open  https\n2000/tcp open  cisco-sccp\n5060/tcp open  sip\n\nNmap done: 1 IP address (1 host up) scanned in 58.07 seconds\n"
+    },
+    {
+        "url": "zomato.com",
+        "ip": "3.1.146.139",
+        "timestamp": "2025-05-15 14:59:51.484273",
+        "result": "Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-15 14:59 IST\nNmap scan report for ec2-3-1-146-139.ap-southeast-1.compute.amazonaws.com (3.1.146.139)\nHost is up (0.0013s latency).\nNot shown: 541 filtered tcp ports (no-response), 456 closed tcp ports (reset)\nPORT     STATE SERVICE\n80/tcp   open  http\n443/tcp  open  https\n2000/tcp open  cisco-sccp\n\nNmap done: 1 IP address (1 host up) scanned in 4315.71 seconds\n"
+    },
+    {
+        "url": "jala.com",
+        "ip": "200.69.18.186",
+        "timestamp": "2025-05-15 14:45:15.478979",
+        "result": "Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-15 14:45 IST\nNmap scan report for sh-cp3.mia1.servername.online (200.69.18.186)\nHost is up (0.00090s latency).\nNot shown: 674 filtered tcp ports (no-response), 312 closed tcp ports (reset)\nPORT     STATE SERVICE\n21/tcp   open  ftp\n22/tcp   open  ssh\n25/tcp   open  smtp\n80/tcp   open  http\n110/tcp  open  pop3\n143/tcp  open  imap\n443/tcp  open  https\n465/tcp  open  smtps\n587/tcp  open  submission\n993/tcp  open  imaps\n995/tcp  open  pop3s\n2000/tcp open  cisco-sccp\n3306/tcp open  mysql\n5060/tcp open  sip\n\nNmap done: 1 IP address (1 host up) scanned in 5035.53 seconds\n"
+    },
+    {
+        "url": "flipkart.com",
+        "ip": "163.53.76.86",
+        "timestamp": "2025-05-15 15:07:05.951494",
+        "result": "Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-15 15:07 IST\nNmap scan report for 163.53.76.86\nHost is up (0.046s latency).\nNot shown: 996 filtered tcp ports (no-response)\nPORT     STATE SERVICE\n80/tcp   open  http\n443/tcp  open  https\n2000/tcp open  cisco-sccp\n5060/tcp open  sip\n\nNmap done: 1 IP address (1 host up) scanned in 58.00 seconds\n"
+    },
+    {
+        "url": "flipkart.com",
+        "ip": "103.243.32.90",
+        "timestamp": "2025-05-15 14:21:51.028015",
+        "result": "Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-15 14:21 IST\nNmap scan report for 103.243.32.90\nHost is up (0.018s latency).\nNot shown: 996 filtered tcp ports (no-response)\nPORT     STATE SERVICE\n80/tcp   open  http\n443/tcp  open  https\n2000/tcp open  cisco-sccp\n5060/tcp open  sip\n\nNmap done: 1 IP address (1 host up) scanned in 19.12 seconds\n"
+    },
+    {
+        "url": "flipkart.com",
+        "ip": "163.53.76.86",
+        "timestamp": "2025-05-08 14:12:50.300849",
+        "result": "Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-08 14:12 IST\nNmap scan report for 163.53.76.86\nHost is up (0.19s latency).\nNot shown: 998 filtered tcp ports (no-response)\nPORT    STATE SERVICE\n80/tcp  open  http\n443/tcp open  https\n\nNmap done: 1 IP address (1 host up) scanned in 804.57 seconds\n"
+    },
+    {
+        "url": "flipkart.com",
+        "ip": "103.243.32.90",
+        "timestamp": "2025-05-08 14:16:58.686888",
+        "result": "Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-08 14:16 IST\nNmap scan report for 103.243.32.90\nHost is up.\nAll 1000 scanned ports on 103.243.32.90 are in ignored states.\nNot shown: 1000 filtered tcp ports (no-response)\n\nNmap done: 1 IP address (1 host up) scanned in 209.40 seconds\n"
+    },
+    {
+        "url": "amazon.com",
+        "ip": "54.239.28.85",
+        "timestamp": "2025-05-08 13:04:14.180930",
+        "result": "Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-08 13:04 IST\nNmap scan report for 54.239.28.85\nHost is up (0.0014s latency).\nNot shown: 956 closed tcp ports (reset), 40 filtered tcp ports (no-response)\nPORT     STATE SERVICE\n80/tcp   open  http\n443/tcp  open  https\n2000/tcp open  cisco-sccp\n5060/tcp open  sip\n\nNmap done: 1 IP address (1 host up) scanned in 3944.48 seconds\n"
+    },
+    {
+        "url": "google.com",
+        "ip": "142.250.196.174",
+        "timestamp": "2025-05-08 13:12:07.205470",
+        "result": "Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-08 13:12 IST\nNmap scan report for maa03s47-in-f14.1e100.net (142.250.196.174)\nHost is up (0.0046s latency).\nNot shown: 999 filtered tcp ports (no-response)\nPORT     STATE SERVICE\n5060/tcp open  sip\n\nNmap done: 1 IP address (1 host up) scanned in 128.13 seconds\n"
+    }
+]

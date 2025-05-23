@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scan Logs</title>
+</head>
+<body>
+    <h1>Scan History</h1>
+    <a href="/">🔙 Back to Scanner</a>
+    <br><br>
+    {% for log in logs %}
+        <div style="border:1px solid #ccc; padding:10px; margin:10px;">
+            <strong>URL:</strong> {{ log.url }}<br>
+            <strong>IP:</strong> {{ log.ip }}<br>
+            <strong>Time:</strong> {{ log.timestamp }}<br>
+            <strong>Scan:</strong>
+            <pre>{{ log.result }}</pre>
+        </div>
+    {% endfor %}
+</body>
+</html>
