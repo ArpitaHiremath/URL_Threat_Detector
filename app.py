@@ -25,8 +25,8 @@ def save_logs(logs):
 # Send email alert
 def send_email(subject, message, to_email):
     try:
-        sender_email = "cstest12224@gmail.com"  # 👈 Replace with your email
-        sender_password = "nnxc tncl bzan skha"  # 👈 Replace with your Gmail App Password
+        sender_email = ""  # 👈 Replace with your email
+        sender_password = ""  # 👈 Replace with your Gmail App Password
 
         msg = MIMEText(message)
         msg["Subject"] = subject
@@ -69,7 +69,7 @@ def index():
             send_email(
                 subject=f"Nmap Scan Report: {url}",
                 message=f"Scan on {url} ({ip}) at {timestamp}\n\n{output}",
-                to_email="arpitahiremath443@gmail.com"  # 👈 Replace with recipient's email
+                to_email=""  # 👈 Replace with recipient's email
             )
 
             scan_result = output
